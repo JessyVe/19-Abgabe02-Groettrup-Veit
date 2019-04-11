@@ -24,4 +24,13 @@
     <javac srcdir="${src}" destdir="${build}"/>
   </target>
   
+   <target name="jar" 
+		   depends="compile">
+    <jar jarfile="${dist}/19-Abgabe02-Gruettrup-Veit.jar" basedir="${build}">
+	<manifest>
+		<attribute name="Main-Class" value="Main.Main" />
+	</manifest>
+	</jar>
+  </target>
+  
 </project>
