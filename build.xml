@@ -8,6 +8,11 @@
   <property name="build" location="build"/>
   <property name="dist" location="dist"/>
   
+  <target name="clean">
+    <delete dir="${build}"/>
+	<delete dir="${dist}"/>
+  </target>
+  
   <target name="init">
      <mkdir dir="${build}"/>
 	 <mkdir dir="${dist}"/>
