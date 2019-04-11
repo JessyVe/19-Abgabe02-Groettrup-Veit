@@ -18,4 +18,10 @@
 	 <mkdir dir="${dist}"/>
   </target>
   
+  <target name="compile" 
+		  depends="init">
+    <!-- Compile the Java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}"/>
+  </target>
+  
 </project>
