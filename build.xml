@@ -33,4 +33,11 @@
 	</jar>
   </target>
   
+  <target name="run" 
+		  depends="jar">
+    <java jar="${dist}/19-Abgabe02-Gruettrup-Veit.jar" fork="true">
+		<arg line="Laura Groettrup"/>
+	</java>
+  </target>
+  
 </project>
