@@ -61,6 +61,11 @@
 		</manifest>
 		</jar>
 	</target>
+	
+	<target name="install">
+		<mkdir dir="${dist}"/>
+		<copy file="${build}/jar/19-Abgabe02-Gruettrup-Veit.jar" todir="${dist}"/>
+    </target>  
   
   <target name="run" 
 		  depends="jar">
