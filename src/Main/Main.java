@@ -12,9 +12,11 @@ package Main;
 public class Main {
 
     public static void main(String[] args) {       
-	Main hello = new Main();
-        int number = hello.sayHello(args[0]);
-        System.out.println("Anzahl der ausgegebenen Zeichen: " + number);
+		if(args.length>0){
+			Main hello = new Main();
+			int number = hello.sayHello(args[0]);
+			System.out.println("Anzahl der ausgegebenen Zeichen: " + number);
+		}
     }
 
     public int sayHello(String name) {
