@@ -73,7 +73,7 @@
 		<classpath>
 			<path refid="application"/>
 		</classpath>
-		<arg line="Laura Groettrup"/>
+		<arg line="Laura und Jessica"/>
 	</java>
   </target>
   

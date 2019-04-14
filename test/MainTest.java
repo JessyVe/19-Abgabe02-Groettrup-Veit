@@ -22,7 +22,7 @@ public class MainTest {
      */
     @Test
     public void testSayHello() {
-        String name = "Laura";
+        String name = "Laura und Jessica";
         Main instance = new Main();
         int expResult = ("Hello " + name + "!").length();
         int result = instance.sayHello(name);
