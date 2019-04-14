@@ -9,7 +9,7 @@ Da das Programm in Java geschrieben ist, brauchen wir Java und zum Compilieren e
 ### Manifest Datei
 ANT verwendet die build.xml-Datei als Anweisungsquelle, welche im Verzeichnis 19-Abgabe02-Groettrup-Veit liegt. In der Kommandozeile müssen im Ordner 19-Abgabe02-Groettrup-Veit folgende Schritte zum Ausführen des Programmes getätigt werden:
 1) ```ant run```
-2) ```java -jar build/jar/19-Abgabe02-Gruettrup-Veit.jar <Name>```
+2) ```java -jar build/jar/19-Abgabe02-Groettrup-Veit.jar <Name>```
 
 ### Credits
 Dieses Programm wurde im Rahmen der Lehrveranstaltung Configuration Managment der FH Joanneum entwickelt.
